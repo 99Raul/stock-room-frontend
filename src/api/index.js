@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://otc-room.herokuapp.com/posts' });
+const API = axios.create({ baseURL: 'https://otc-room.herokuapp.com/' });
 
 API.interceptors.request.use((req) => {
 	if (localStorage.getItem('profile')) {
