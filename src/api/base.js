@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-	baseURL: 'https://otc-room.herokuapp.com/posts',
+	baseURL: 'https://otc-room.herokuapp.com/',
 });
 
 // https://otc-room.herokuapp.com/
